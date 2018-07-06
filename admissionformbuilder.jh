@@ -1,0 +1,10 @@
+entity AdmissionFormBuilder {
+	label String required,
+    type String required
+}
+
+paginate AdmissionFormBuilder with pagination
+
+dto * with mapstruct
+
+service AdmissionFormBuilder with serviceClass
